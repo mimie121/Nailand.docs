@@ -1,0 +1,214 @@
+.tokenomics-page {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  background: #fafafa;
+  padding: 2rem 3rem;
+  color: #222;
+}
+
+/* RIGHT SIDEBAR NAVIGATION */
+.tokenomics-sidebar {
+  position: fixed;
+  right: 2rem;
+  top: 100px;
+  width: 250px;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-left: 1rem;
+  border-left: 1px solid #e5e5e5;
+}
+
+.tokenomics-sidebar h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.tokenomics-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tokenomics-sidebar li {
+  font-size: 0.95rem;
+  padding: 8px 0;
+  color: #666;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.tokenomics-sidebar li:hover {
+  color: #007bff;
+}
+
+.tokenomics-sidebar li.active {
+  color: #007bff;
+  font-weight: 600;
+  border-left: 3px solid #007bff;
+  background: #f0f7ff;
+  padding-left: 8px;
+}
+
+/*  MAIN CONTENT */
+.tokenomics-content {
+  margin-top: -30px;
+  flex: 1;
+  max-width: 800px;
+  margin-right: 300px; 
+  scroll-behavior: smooth;
+}
+
+.tokenomics-content h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.tokenomics-content section {
+  margin-bottom: 3rem;
+  scroll-margin-top: 120px;
+}
+
+.tokenomics-content h2 {
+  font-size: 1.3rem;
+  /* color: #007bff; */
+  margin-bottom: 1rem;
+}
+
+.tokenomics-content p,
+.tokenomics-content li {
+  line-height: 1.7;
+  color: #333;
+}
+
+/* TABLE DESIGN */
+.tokenomics-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tokenomics-content th,
+.tokenomics-content td {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.tokenomics-content th {
+  background-color: #f5f7fa;
+  font-weight: 600;
+  color: #333;
+}
+
+.tokenomics-content tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Adjust DocsPageWrapper button on this page */
+.tokenomics-docs-wrapper .copy-btn {
+  margin-right: 250px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  color: #007bff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tokenomics-docs-wrapper .copy-btn:hover {
+  background: #e9f3ff;
+  color: #007bff;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 900px) {
+  .tokenomics-page {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  /* DocsPageWrapper Header */
+  .docs-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .docs-header h1 {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .tokenomics-docs-wrapper .copy-btn {
+    align-self: flex-end;
+    margin-right: 0;
+    font-size: 0.85rem;
+    padding: 5px 8px;
+  }
+
+  /* Sidebar moves below content */
+  .tokenomics-sidebar {
+    position: static;
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 1rem;
+    margin-top: 2rem;
+  }
+
+  .tokenomics-sidebar ul {
+    display: none;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tokenomics-sidebar li {
+    flex: 1 1 45%;
+    padding: 8px;
+    font-size: 0.9rem;
+    border-left: none;
+    border-radius: 6px;
+    text-align: center;
+    background: #f8f8f8;
+  }
+
+  .tokenomics-sidebar li.active {
+    background: #e9f3ff;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+
+  /* Main content */
+  .tokenomics-content {
+    margin-right: 0;
+    max-width: 100%;
+    margin-top: -60px;
+  }
+
+  /* Scrollable tables */
+  .tokenomics-content table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .tokenomics-content th,
+  .tokenomics-content td {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,41 @@
+.executive-summary {
+  padding: 2rem;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+}
+
+.executive-summary h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.executive-summary p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.roadmap-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.roadmap-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  color: #444;
+  
+}
+
+.icon {
+ color: #2563eb;
+}

@@ -1,0 +1,60 @@
+.problem-statement {
+  padding: 2rem;
+  line-height: 1.8;
+  color: #222;
+  background-color: #fff;
+}
+
+.problem-statement h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.problem-list {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.problem-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.problem-item:hover {
+  background: #f1f3f5;
+  transform: translateY(-2px);
+}
+
+.problem-icon {
+  color: #2563eb; 
+  flex-shrink: 0;
+}
+
+.problem-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.problem-item p {
+  margin: 0.2rem 0 0 0;
+  color: #555;
+}
+
+.problem-conclusion {
+  margin-top: 2rem;
+  font-weight: 500;
+  color: #222;
+}

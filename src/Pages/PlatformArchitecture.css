@@ -1,0 +1,65 @@
+.platform-architecture {
+  padding: 2rem;
+  line-height: 1.8;
+  color: #222;
+  background-color: #fff;
+}
+
+.platform-architecture h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.architecture-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.architecture-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); */
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.architecture-item:hover {
+  background: #f1f3f5;
+  transform: translateY(-2px);
+}
+
+.architecture-icon {
+  color: #2563eb;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.architecture-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.architecture-item p {
+  margin: 0.3rem 0 0 0;
+  color: #555;
+}
+
+.color-swatch {
+  font-weight: 500;
+  color: #5d4037;
+}

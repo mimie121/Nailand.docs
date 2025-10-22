@@ -1,0 +1,135 @@
+.docs-page {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+
+/* Header Section */
+.docs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.docs-header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #222;
+}
+
+/* Copy Button */
+.copy-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+  background: #e9f3ff;
+  color: #007bff;
+}
+
+.copy-btn .tooltip {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.copy-btn:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Special Styling for Tokenomics Page */
+.tokenomics-docs-wrapper .docs-page {
+  background: #fafafa;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 2rem 3rem;
+}
+
+.tokenomics-docs-wrapper .docs-header {
+  border-bottom: none;
+  margin-bottom: 1.5rem;
+}
+
+.tokenomics-docs-wrapper .docs-header h1 {
+  color: #111;
+  font-size: 1.7rem;
+}
+
+.tokenomics-docs-wrapper .copy-btn {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.tokenomics-docs-wrapper .copy-btn:hover {
+  background: #e9f3ff;
+  color: #007bff;
+}
+
+
+/*  MOBILE RESPONSIVE */
+
+@media (max-width: 900px) {
+  .docs-page {
+    padding: 1.5rem;
+  }
+
+  .docs-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .docs-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .copy-btn {
+    align-self: flex-end;
+    font-size: 0.85rem;
+    padding: 5px 8px;
+  }
+
+  .tokenomics-docs-wrapper .docs-header h1 {
+    font-size: 1.4rem;
+  }
+
+  .tokenomics-docs-wrapper .copy-btn {
+    align-self: flex-end;
+    background: #f7f7f7;
+    font-size: 0.8rem;
+    padding: 5px 8px;
+  }
+}
