@@ -14,7 +14,7 @@ import CorePrinciples from "./Pages/CorePrinciples";
 import PlatformArchitecture from "./Pages/PlatformArchitecture";
 import TokenomicsPage from "./Pages/TokenomicsPage";
 import Features from "./Pages/Features";
-import GovernanceModel from "./pages/GovernanceModel";
+import GovernanceModel from "./Pages/GovernanceModel";
 import CommunityPartnerships from "./Pages/CommunityPartnerships";
 import SecurityCompliance from "./Pages/SecurityCompliance";
 import ImplementationRoadmap from "./Pages/ImplementationRoadmap";
