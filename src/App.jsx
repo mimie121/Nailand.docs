@@ -1,6 +1,5 @@
-
 import { useState, useEffect, useRef } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./Components/Sidebar";
 import SearchBar from "./Components/SearchBar";
 import SearchResults from "./Components/SearchResults";
@@ -9,7 +8,6 @@ import ExecutiveSummary from "./Pages/ExecutiveSummary";
 import VisionMissionValues from "./Pages/VisionMissionValues";
 import ProblemStatement from "./Pages/ProblemStatement";
 import OurSolution from "./Pages/OurSolution";
-import "./App.css";
 import CorePrinciples from "./Pages/CorePrinciples";
 import PlatformArchitecture from "./Pages/PlatformArchitecture";
 import TokenomicsPage from "./Pages/TokenomicsPage";
@@ -20,8 +18,9 @@ import SecurityCompliance from "./Pages/SecurityCompliance";
 import ImplementationRoadmap from "./Pages/ImplementationRoadmap";
 import AcceptanceCriteria from "./Pages/AcceptanceCriteria";
 import Conclusion from "./Pages/Conclusion";
-import Addendum from "./Pages/Addendum"
+import Addendum from "./Pages/Addendum";
 
+import "./App.css";
 
 export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -94,7 +93,6 @@ export default function App() {
             <Route path="/AcceptanceCriteria" element={<AcceptanceCriteria />} />
             <Route path="/Conclusion" element={<Conclusion />} />
             <Route path="/Addendum" element={<Addendum />} />
-                        
           </Routes>
         </section>
       </main>
