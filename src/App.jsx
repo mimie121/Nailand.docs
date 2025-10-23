@@ -1,9 +1,9 @@
 
 import { useState, useEffect, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
-import SearchBar from "./components/SearchBar";
-import SearchResults from "./components/SearchResults";
+import Sidebar from "./Components/Sidebar";
+import SearchBar from "./Components/SearchBar";
+import SearchResults from "./Components/SearchResults";
 import docsData from "./data/docsData";
 import ExecutiveSummary from "./Pages/ExecutiveSummary";
 import VisionMissionValues from "./Pages/VisionMissionValues";
