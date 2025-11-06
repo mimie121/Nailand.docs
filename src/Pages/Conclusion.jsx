@@ -4,16 +4,13 @@ import "./Conclusion.css";
 
 export default function Conclusion() {
   return (
-    <DocsPageWrapper title="Conclusion" icon={Flag}>
+    <DocsPageWrapper title="Conclusion & Call to Action" icon={Flag}>
       <section className="conclusion">
         <div className="conclusion-item">
           <Flag className="conclusion-icon" />
           <div>
             <p>
-              NaiLAND is more than a platform: it’s a movement to restore value
-              to creators and communities. By centering interests, barterable
-              skills, and community ownership, NaiLAND reimagines the digital
-              economy so that talent and time create wealth—together.
+               NaiLAND turns skills and community contribution into real value through a phased, secure rollout—from walletless onboarding to DAO governance and a tokenized metaverse.
             </p>
           </div>
         </div>

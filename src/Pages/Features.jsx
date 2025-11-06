@@ -63,7 +63,7 @@ export default function Features() {
 
         <div className="features-content">
           <section id="phase1">
-            <h2>Phase 1: Onboarding & Foundational Engagement (Months 1–3)</h2>
+            <h2>Phase 1: Onboarding & Foundational Engagement.</h2>
             <p>
               Deliverables: Signup, Pioneer’s Pledge, interest tags, mini-groups → hubs, 
               Scan Chat, NaiBot MVP, Points dashboard. Pilot with no-code / Glide for 
@@ -72,7 +72,7 @@ export default function Features() {
           </section>
 
           <section id="phase2">
-            <h2>Phase 2: Digital Hubs, Streaming & Collaboration (Months 4–6)</h2>
+            <h2>Phase 2: Digital Hubs, Streaming & Collaboration.</h2>
             <p>
               Deliverables: Hub auto-upgrades, multi-channel forums, Kanban project tools,
               streaming classrooms, educator network, NaiBot collaboration recommendations.
@@ -80,7 +80,7 @@ export default function Features() {
           </section>
 
           <section id="phase3">
-            <h2>Phase 3: Tokenization & Internal Exchange (Months 7–9)</h2>
+            <h2>Phase 3: Tokenization & Internal Exchange.</h2>
             <p>
               Deliverables: $NAI ERC-20 on L2, biannual Points→$NAI conversion engine, 
               internal USDT↔$NAI exchange, wallet integrations, security audits, staking.
@@ -88,7 +88,7 @@ export default function Features() {
           </section>
 
           <section id="phase4">
-            <h2>Phase 4: Marketplaces & Region Governance (Months 10–12)</h2>
+            <h2>Phase 4: Marketplaces & Region Governance.</h2>
             <p>
               Deliverables: Skill-Exchange & E-commerce marketplaces, Region DAO formation, 
               on-chain voting and treasury dashboards, vendor onboarding.
@@ -96,7 +96,7 @@ export default function Features() {
           </section>
 
           <section id="phase5">
-            <h2>Phase 5: Global Scaling, RWA & Metaverse (Months 13–24)</h2>
+            <h2>Phase 5: Global Scaling, RWA & Metaverse.</h2>
             <p>
               Deliverables: RWA tokenization frameworks, 3D Metaverse territories, 
               VR/AR interfaces, Naichain migration, external exchange listings, 

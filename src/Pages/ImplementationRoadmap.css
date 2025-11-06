@@ -48,7 +48,11 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .implementation-roadmap {
-    padding: 1.5rem;
+    padding: 1rem;
+  }
+
+  .roadmap-list li {
+    display: inline-block;
   }
 
   .roadmap-item {
